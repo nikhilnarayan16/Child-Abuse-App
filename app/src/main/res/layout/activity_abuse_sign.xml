@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/c_a"
+            android:id="@+id/ca1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The following are the signs of child abuse :-"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="15dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/ca1"
+            android:id="@+id/ca2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sweaty brow"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="10dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/ca2"
+            android:id="@+id/ca3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Heart beats fast"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="5dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/ca3"
+            android:id="@+id/ca4"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feel sick in the tummy."
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="5dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/ca4"
+            android:id="@+id/ca5"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shaky all over"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="5dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/ca5"
+            android:id="@+id/ca6"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wobbly legs"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="5dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/ca6"
+            android:id="@+id/ca7"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Need to go to the toilet."
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="5dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/ca7"
+            android:id="@+id/ca8"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sweaty palms"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="5dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/ca8"
+            android:id="@+id/ca9"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Goosebumps"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="5dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/ca9"
+            android:id="@+id/ca10"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start to cry"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="5dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/ca10"
+            android:id="@+id/ca11"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hair falls like it is standing on end."
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="5dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/ca11"
+            android:id="@+id/ca12"/>
+
+
+    </RelativeLayout>
+</ScrollView>

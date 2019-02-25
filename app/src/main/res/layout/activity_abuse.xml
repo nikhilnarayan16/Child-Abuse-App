@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/ca"
+        android:paddingTop="10dp"
+        android:id="@+id/ab"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Never speak abusive words to children.It affects child's mind."
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:paddingTop="15dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/ab"
+        android:id="@+id/ch"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Never get drunk in front of children. It creates wrong impression in child's mind"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:paddingTop="15dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/ch"
+        android:id="@+id/chi"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Never treat children as servant. Never ask them to do any dangerous household work or give excessive work like a servant."
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:paddingTop="15dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/chi"
+        android:id="@+id/chil"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Never expose child to the domestic violence"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:paddingTop="15dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/chil"
+        android:id="@+id/childr"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If you are being force to touch anyone then imediately inform your parents. This is considered to be a bad touch"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:paddingTop="15dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/childr"
+        android:id="@+id/childre"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Make sure child is away from the dangerous appliances like hot iron"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:paddingTop="15dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/childre"
+        android:id="@+id/children"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If someone shows you inappropriate pictures or movies you should inform your parents imediately."
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:paddingTop="15dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/children"
+        android:id="@+id/children1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Never hit children brutally."
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:paddingTop="15dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/children1"
+        android:id="@+id/children2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If someone tries to take your inappropriate pictures or videos, inform your parents about it."
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:paddingTop="15dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/children2"
+        android:id="@+id/children3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Never leave a child without supervision at home, they might get exposed to the dangerous items."
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:paddingTop="15dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/children3"
+        android:id="@+id/children4"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If somebody tries to touch your private parts inform your parents about it. "
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:paddingTop="15dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/children4"
+        android:id="@+id/children5"/>
+
+</RelativeLayout>
+
+
+</ScrollView>

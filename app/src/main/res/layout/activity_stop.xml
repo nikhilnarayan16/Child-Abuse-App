@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/stop"
+            android:id="@+id/st"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Learn the facts and understand the risks. Realities - not trust - should influence your decisions regarding your child."
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="15dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/st"
+            android:id="@+id/sto"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Minimize Opportunity -If you eliminate or reduce one-adult/one-child situations, you will dramatically lower the risk of sexual abuse for your child."
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="15dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/sto"
+            android:id="@+id/stop"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Talk About It - Children often keep abuse a secret, but barriers can be broken down by talking openly about it"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="15dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/stop"
+            android:id="@+id/stopp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Stay Alert - Don't expect obvious signs when a child is being sexually abused. Signs are often there but you have to spot them."
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="15dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/stopp"
+            android:id="@+id/stoppi"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Make a Plan - Learn where to go, who to call, and how to react."
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="15dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/stoppi"
+            android:id="@+id/stoppic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Act on Suspicions. A child's wellbeing may depend on it."
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="15dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/stoppic"
+            android:id="@+id/stoppicc"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.
+Get involved."
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="15dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/stoppicc"
+            android:id="@+id/stoppiccs"/>
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ayushi.childabuse">
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/childlogo"
+        android:roundIcon="@drawable/childlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="CHILD ABUSE">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChildAbuse"
+            android:label="CHILD ABUSE" />
+        <activity
+            android:name=".PrivateActivity"
+            android:label="PRIVATE BODY PARTS" />
+        <activity
+            android:name=".TouchActivity"
+            android:label="IDENTIFY TOUCH" />
+        <activity
+            android:name=".FamilyActivity"
+            android:label="SAFE FAMILY CIRCLE" />
+        <activity
+            android:name=".AbuseActivity"
+            android:label="CHILD ABUSE???" />
+        <activity
+            android:name=".AbuseSignActivity"
+            android:label="ABUSE SIGNS"/>
+        <activity
+            android:name=".StopActivity"
+            android:label="HOW TO STOP"/>
+        <activity
+            android:name=".PoliceActivity"
+            android:label="CONTACT POLICE"/>
+        <activity
+            android:name=".LawsActivity"
+            android:label="CHILD ABUSE LAWS"/>
+        <activity
+            android:name=".AboutUsActivity"
+            android:label="ABOUT US"/>
+        <activity
+            android:name=".ChildAbuse2Activity"
+            android:label="CHILD ABUSE"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@drawable/familypic"
+    android:paddingTop="10dp"
+    android:id="@+id/fam"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In order to prevent child abuse, child should know the safe family circle consisting of mother, father, grandparents and siblings.Family provide the basic physical necessities and emotional care for their children, and society relies on families to care for its members and uphold its laws by teaching moral values. Family provide safety in the same way as shell provides safety to turtle. Strong family units know how to build strong empire and thus safeguarding the family from outside threat. There is a key role in child's safety depending upon family. For a child, family is one and first."
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:layout_below="@+id/fam"
+            android:paddingTop="15dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="7dp"/>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

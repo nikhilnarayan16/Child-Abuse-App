@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/ayu"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ayushi"
+        app:civ_border_color="#EEEEEE"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="#8BC34A"
+        app:civ_shadow_radius="10" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AYUSHI GUPTA"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_below="@+id/ayu"
+        android:layout_centerInParent="true"
+        android:id="@+id/ayui"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ayushi.gupta097@gmail.com"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/ayui"
+        android:id="@+id/ayus"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8299436221"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/ayus"
+        android:id="@+id/ayush"/>
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/ayush"
+        android:layout_centerInParent="true"
+        android:src="@drawable/nik"
+        app:civ_border_color="#EEEEEE"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="#8BC34A"
+        app:civ_shadow_radius="10"
+        android:id="@+id/nik"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIKHIL NARAYAN"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_below="@+id/nik"
+        android:layout_centerInParent="true"
+        android:id="@+id/nikh"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nikhilnarayan527@gmail.com"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/nikh"
+        android:id="@+id/nikhi"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9931985235"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/nikhi"
+        android:id="@+id/nikhil"/>
+
+
+
+
+
+</RelativeLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/safe_touch"
+            android:id="@+id/to"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="These are touches that keep children safe and are good for them, and that make children feel cared for and important. Safe touches can include hugging, pats on the back, and an arm around the shoulder. Safe touches can also include touches that might hurt, such as removing a splinter. Explain to children that when you remove a splinter, you’re doing so to keep them healthy, which makes it a safe touch."
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:layout_below="@+id/to"
+            android:id="@+id/tou"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/bad_touch"
+            android:id="@+id/touc"
+            android:layout_below="@+id/tou"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="These are touches that hurt children’s bodies or feelings (for example, hitting, pushing, pinching, and kicking). Teach children that these kinds of touches are not okay.There are also unwanted touches that might be safe but that a child doesn’t want from that person or at that moment. It’s okay for a child to say no to an unwanted touch, even if it’s from a familiar person. Help your children practice saying no in a strong, yet polite voice. This will help them learn to set personal boundaries."
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:layout_below="@+id/touc"
+            android:paddingTop="15dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"/>
+
+    </RelativeLayout>
+</ScrollView>

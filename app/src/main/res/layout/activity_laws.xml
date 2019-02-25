@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LAWS BY INDIAN GOVERNMENT"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:paddingLeft="18dp"
+            android:id="@+id/la"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. The Child Abuse Prevention and Treatment Act (CAPTA)"
+
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:paddingTop="15dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/la"
+            android:id="@+id/law"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. The Pre-natal Diagnostic Techniques (Regulation and Prevention of Misuse) Act, 1994."
+
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:paddingTop="15dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/law"
+            android:id="@+id/law1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is an Act for the regulation of the use of pre-natal diagnostic techniques and for the prevention of misuse of such techniques for the purpose of prenatal sex determination leading to female foeticide and for matters connected therewith or incidental thereto."
+            android:textStyle="italic"
+            android:textSize="12sp"
+            android:textColor="#000000"
+            android:paddingTop="3dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@id/law1"
+            android:id="@+id/law2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. The Juvenile Justice (Care and Protection of Children) Act, 2000"
+
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:paddingTop="15dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/law2"
+            android:id="@+id/law3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Juvenile Justice (Care and Protection of Children) Act, 2000 provides for proper care, protection and treatment of children in conflict with law and children in need of care and protection by catering to their development needs, and by adopting a child friendly approach in the adjudication and disposition of matters in the best interest of children and for their ultimate rehabilitation through various institutions established under the Act. Sections 23, 24, 26 of the Act deal with the provisions of child abuse.  "
+
+            android:textSize="12sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="3dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/law3"
+            android:id="@+id/law4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. The Immoral Traffic (Prevention) Act, 1956"
+
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:paddingTop="15dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/law4"
+            android:id="@+id/law5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Immoral Traffic (Prevention) Act (ITPA) deals with the offences related to sexual exploitation of children for commercial purposes and to provide enhanced penalties for offences involving children and minor."
+
+            android:textSize="12sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="3dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/law5"
+            android:id="@+id/law6"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Child Labour (Prohibition and Regulation) Act, 1986"
+
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:paddingTop="15dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/law6"
+            android:id="@+id/law7"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Child Labour (Prohibition and Regulation) Act, 1986Act provides for elimination of child labour and provides for punishments and penalties for employing children below the age of 14 years in various hazardous occupations and processes. "
+            android:textSize="12sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="3dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/law7"
+            android:id="@+id/law8"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. The Prohibition of Child Marriage Act, 2006"
+
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:paddingTop="15dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/law8"
+            android:id="@+id/law9"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Prohibition of Child Marriage Act, 2006 was enacted to put a stop to the practice of child marriages in India. For marriages already contracted, it says that every child marriage shall be voidable at the option of the contracting party who was a child at the time of the marriage. "
+            android:textSize="12sp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:paddingTop="3dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="5dp"
+            android:layout_below="@+id/law9"
+            android:id="@+id/law10"/>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
